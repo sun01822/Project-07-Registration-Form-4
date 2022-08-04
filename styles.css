@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(231, 56, 85), rgba(245, 4, 80, 0.8))fixed;
+    background-repeat: no repeat;
+}
+
+.container {
+    margin: 8rem auto 5rem auto;
+    border: 3px solid #000;
+    width: 30rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgba(242, 241, 241, 0.9);
+    border-radius: 1rem 1rem 0 0;
+    padding: 1.40rem;
+    font-size: 1.25rem;
+}
+
+span {
+    display: inline-block;
+    letter-spacing: -9px;
+}
+
+#b {
+    transform: rotate(-5deg);
+    color: rgb(253, 204, 6);
+}
+
+#d,
+#s {
+    color: rgb(248, 122, 143);
+    transform: rotate(5deg);
+}
+
+#a,
+#p2 {
+    color: rgb(235, 141, 0);
+}
+
+#p1 {
+    color: brown;
+}
+
+.contain h2 {
+    text-align: center;
+    padding: 1.25rem;
+    font-family: 'open sans', arial, sans-serif;
+}
+
+.contain input {
+    width: 70%;
+    display: flex;
+    margin: 1rem auto 1.50rem auto;
+    padding: 0.75rem 2rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem #888888;
+    border: .10rem solid #c2c0c0;
+    border-radius: .20rem;
+}
+
+input[type="submit"] {
+    width: 70%;
+    display: block;
+    margin: 1.50rem auto;
+    padding: auto auto;
+    border-radius: 3rem;
+    background: linear-gradient(to right, rgb(171, 8, 35), rgb(242, 82, 149), rgb(171, 8, 35))fixed;
+    background-repeat: no repeat;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.05rem;
+}
+
+.forgot {
+    width: 70%;
+    display: flex;
+    margin: auto auto;
+    font-size: 1rem;
+}
+
+.forgot a {
+    text-decoration: none;
+    padding: 0.50rem .25rem 1rem .25rem;
+    margin: 0.75rem 0 1rem .50rem;
+    color: rgb(231, 15, 51);
+}
+
+#pass {
+    padding-left: 2rem;
+}
+
+.footer {
+    color: white;
+    font-size: 1.10rem;
+    text-align: center;
+    font-weight: 300;
+    margin: 0 auto;
+    display: block;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: white;
+    font-weight: bold;
+}
